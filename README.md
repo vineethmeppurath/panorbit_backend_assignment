@@ -12,12 +12,14 @@ This Django project provides user creation.
 ## Installation
 
 1. Clone the repository to your local machine:
-
-git clone https://github.com/your-username/your-project.git
+````
+git clone https://github.com/vineethmeppurath/panorbit_backend_assignment.git
+````
 
 2. Navigate to the project directory:
-
-cd your-project/
+````
+cd panorbit_project/
+````
 
 3. Create and activate a virtual environment:
 - On Windows:
@@ -72,4 +74,5 @@ The project is integrated with Swagger to provide API documentation.
       Gender: [your gender]
       Phone Number: [your phone number]
 4. Once you have entered the required information, click the "Execute" button.
+
 By following these steps, you can successfully sign up by providing your first name, last name, email, gender, and phone number as input.
