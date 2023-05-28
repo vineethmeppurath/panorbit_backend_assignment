@@ -68,11 +68,13 @@ The project is integrated with Swagger to provide API documentation.
 1. Open the signup API endpoint.
 2. Click on the "Try it out" button.
 3. Input the following details:
-      First Name: [your first name]
-      Last Name: [your last name]
-      Email: [your email address]
-      Gender: [your gender]
-      Phone Number: [your phone number]
+      ```
+      "first_name": [your first name],
+      "last_name": [your last name],
+      "gender": [your gender, M/F/O],
+      "email": [your email address],
+      "phone_number": [your phone number]
+      ```
 4. Once you have entered the required information, click the "Execute" button.
 
 By following these steps, you can successfully sign up by providing your first name, last name, email, gender, and phone number as input.
