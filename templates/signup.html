@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Panorbit</title>
+</head>
+<body>
+<div class="container">
+    <h1> Welcome to Sign up page</h1>
+    <h2> Sign Up </h2>
+    <form action="/signup/" method="POST">
+        {% csrf_token %}
+    <table border="1" style="alignment: center">
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" placeholder="first name...." name="first_name"></td>
+        </tr>
+        <tr>
+            <td>Last Name</td>
+            <td><input type="text" placeholder="last name...." name="last_name"></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" placeholder="email...." name="email"></td>
+        </tr>
+       <tr>
+            <td>Gender</td>
+                <td>
+                    <select name="gender">
+                        <option value="M">Male</option>
+                        <option value="F">Female</option>
+                        <option value="O">Other</option>
+                    </select>
+                </td>
+        </tr>
+        <tr>
+            <td>Phone Number</td>
+            <td><input type="number" placeholder="phone number...." name="phone_number"></td>
+        </tr>
+
+    </table>
+    <input type="submit" value="Sign Up" style="margin-top: 10px">
+    </form>
+
+</div>
+</body>
+</html>
