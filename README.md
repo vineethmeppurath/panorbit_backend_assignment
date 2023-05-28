@@ -42,16 +42,16 @@ pip install -r requirements.txt
 1. Create a database (or use any other database of your choice) and update the database settings in `settings.py`.
 
 2. Run the database migrations:
-
+````
 python manage.py migrate
-
+````
 
 ## Running the Development Server
 
 Start the Django development server with the following command:
-
+````
 python manage.py runserver
-
+````
 Access the project in your web browser at `http://localhost:8000/`.
 
 
