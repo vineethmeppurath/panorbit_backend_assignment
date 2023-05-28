@@ -34,9 +34,9 @@ cd panorbit_project/
   ```
 
 4. Install the project dependencies:
-
+````
 pip install -r requirements.txt
-
+````
 ## Database Setup
 
 1. Create a database (or use any other database of your choice) and update the database settings in `settings.py`.
